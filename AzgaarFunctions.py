@@ -17,13 +17,12 @@ GOLD_BIOME = {
 }
 
 BASE_DEMAND = {
-    "food": 0.5,
-    "stone": 0.2,
-    "gold": 0.1,
+    "food": 2.5,
+    "stone": 0.5,
+    "gold": 0.26,
 }
 
-class ViliaEconomy:
-
+class ViliaEconomy():
     def __init__(self, fmg_json):
         pack         = fmg_json["pack"]
         self.routes  = pack["routes"]
